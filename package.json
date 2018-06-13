@@ -1,0 +1,23 @@
+{
+  "name": "oauth-passport-express",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=app:*,-not-this nodemon ./bin/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^3.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "jest": "^23.1.0",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.5.3",
+    "nodemon": "^1.17.5"
+  }
+}
