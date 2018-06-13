@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.1.2] - 2018-06-13
+## Changed
+- The getKey function in the sessions module has been split into its own module under services.
+
 ## [0.1.1] - 2018-06-13
 ## Added
 - Custom font icons and stylesheet. Stylesheet is now loaded with the default template
@@ -14,7 +18,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Added
 - Login form template with route
 - Primary navigation template
-- 
 
 ## [0.0.0] - 2018-06-13
 ### Added
