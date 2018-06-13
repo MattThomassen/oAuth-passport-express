@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.1.1] - 2018-06-13
+## Added
+- Custom font icons and stylesheet. Stylesheet is now loaded with the default template
+
 ## [0.1.0] - 2018-06-13
 ## Added
 - Login form template with route
