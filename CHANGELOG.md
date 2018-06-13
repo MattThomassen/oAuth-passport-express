@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.1.3] - 2018-06-13
+## Added
+- JSDoc style documentation to modules, classes, and functions
+
 ## [0.1.2] - 2018-06-13
 ## Changed
 - The getKey function in the sessions module has been split into its own module under services.
