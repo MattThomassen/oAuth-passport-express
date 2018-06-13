@@ -1,0 +1,9 @@
+:root {
+	--fontStack: "Helvetica", Arial, Verdana, sans-serif;
+	--fontSize: calc(0.875em + (21 - 14) * (100vw - 412px) / (1920 - 412));
+}
+
+body {
+	margin: 0;
+	font: normal 400 100%/var(--fontSize) var(--fontStack);
+}
