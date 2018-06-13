@@ -1,9 +1,24 @@
 :root {
+	/* Fonts */
 	--fontStack: "Helvetica", Arial, Verdana, sans-serif;
 	--fontSize: calc(0.875em + (21 - 14) * (100vw - 412px) / (1920 - 412));
+
+	/* Colors */
+	--colorPrimaryForeground: hsl(0, 0%, 7%);
+	--colorPrimaryBackground: hsl(0, 0%, 98%);
 }
 
 body {
 	margin: 0;
-	font: normal 400 100%/var(--fontSize) var(--fontStack);
+	font: normal normal 400 var(--fontSize)/100% var(--fontStack);
+	color: var(--colorPrimaryForeground);
+	background-color: var(--colorPrimaryBackground);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"] {
+	font-family: inherit;
+	font-size: inherit;
 }
