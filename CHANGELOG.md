@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.1.0] - 2018-06-13
+## Added
+- Login form template with route
+- Primary navigation template
+
 ## [0.0.0] - 2018-06-13
 ### Added
 - All node libraries needed for this project
