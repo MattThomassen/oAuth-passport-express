@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "DEBUG=app:*,-not-this nodemon ./bin/server",
+    "start": "$env:DEBUG = 'app:*,-not_this' & nodemon ./bin/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^2.0.1",
     "body-parser": "^1.18.3",
     "debug": "^3.1.0",
     "ejs": "^2.6.1",
@@ -18,6 +19,9 @@
     "jest": "^23.1.0",
     "morgan": "^1.9.0",
     "mysql2": "^1.5.3",
-    "nodemon": "^1.17.5"
+    "nodemon": "^1.17.5",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0"
   }
 }

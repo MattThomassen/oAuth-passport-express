@@ -12,6 +12,7 @@ require('../config/views')(app, express);
 require('../config/parsing')(app);
 require('../config/logging')(app);
 require('../config/sessions')(app);
+require('../config/passport')(app);
 
 // ROUTES
 // =================================================================================================

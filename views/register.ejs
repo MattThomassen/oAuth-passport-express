@@ -1,7 +1,7 @@
 <% include ./partials/head.ejs %>
 
 <main>
-	<h1>Login</h1>
+	<h1><%= page.title %></h1>
 	<form method="post">
 		<div class="form__inputGroup">
 			<label for="login__username" class="input__label">Username</label>
@@ -11,9 +11,8 @@
 			<label for="login__passphrase" class="input__label">Passphrase</label>
 			<input type="password" name="passphrase" id="login__passphrase" class="input__field" placeholder="Your secret passphrase" required>
 		</div>
-		<button type="submit">Log in <span class="icon-login"></span></button>
+		<button type="submit">Register <span class="icon-login"></span></button>
 	</form>
-	<a href="/google/login">Log in with <span class="icon-google"></span></a>
 </main>
 
 <% include ./partials/after-footer.ejs %>

@@ -7,7 +7,7 @@ const debug = require('debug')('app:sessions');
  * @param {Object} app 
  */
 module.exports = async function (app) {
-	try {
+	/* try {
 		debug('using session key from database');
 		app.use(session({
 			'resave': false,
@@ -16,11 +16,11 @@ module.exports = async function (app) {
 		}));
 	} catch (error) {
 		debug(error);
-		debug('using default session key');
+		debug('using default session key'); */
 		app.use(session({
 			'resave': false,
 			'saveUninitialized': true,
 			'secret': 'default secret'
 		}));
-	}
+	// }
 };
